@@ -316,6 +316,11 @@
   position: absolute;
   top: 25px;
   left: 48px;
+    background-color: #3199fe; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
 }
 .peerlink-child1,
 .rectangle-parent7 {
@@ -367,7 +372,7 @@ textarea {
 }
 
 .button {
-  background-color: #007bff;
+  background-color: #1a73e8;
   color: #fff;
   padding: 10px 20px;
   border: none;
