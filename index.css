@@ -53,6 +53,7 @@
   position: absolute;
   top: 61px;
   left: 1198px;
+
 }
 .unlocking-secure-connections {
   position: absolute;
@@ -147,7 +148,7 @@
   box-sizing: border-box;
   width: 511px;
   height: 384px;
-  
+
 }
 .track-peers {
   margin: 0;
@@ -330,11 +331,24 @@
 .peerlink {
   position: relative;
   background-color: var(--color-whitesmoke-100);
-  width: 100%;
-  height: 4015px;
-  overflow: hidden;
   text-align: left;
   font-size: var(--font-size-11xl);
   color: var(--color-white);
   font-family: var(--font-inter);
+  
+  display: flex; 
+  flex-direction: column; 
+}
+.button {
+  background-color: #007bff; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+}
+
+.my-button:hover {
+  background-color: #0056b3; 
 }
