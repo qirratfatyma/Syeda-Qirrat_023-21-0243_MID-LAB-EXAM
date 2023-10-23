@@ -212,6 +212,7 @@
   left: 700px;
   width: 511px;
   height: 384px;
+  
 }
 .features-parent,
 .group-parent {
@@ -256,6 +257,8 @@
   left: 12px;
   width: 566px;
   height: 198px;
+  flex: 1;
+  padding: 10px;
 }
 .eg-zoyamemon767gmailcom {
   position: absolute;
@@ -269,6 +272,8 @@
   left: 751px;
   width: 566px;
   height: 198px;
+  flex: 1;
+  padding: 10px;
 }
 .rectangle-parent5 {
   top: 454px;
@@ -285,6 +290,8 @@
   left: 751px;
   width: 566px;
   height: 198px;
+  flex: 1;
+  padding: 10px;
 }
 .contact-now,
 .group-container {
@@ -339,16 +346,25 @@
   display: flex; 
   flex-direction: column; 
 }
-.button {
-  background-color: #007bff; 
-  color: #fff; 
-  padding: 10px 20px; 
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  font-size: 16px; 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 10px;
 }
 
-.my-button:hover {
-  background-color: #0056b3; 
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
